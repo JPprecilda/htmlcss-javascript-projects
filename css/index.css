@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(27, 36, 49, 1);
+}
+li, a, button, h1{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navbar__links{
+    list-style: none;
+}
+    .navbar__links li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .navbar__links li a{
+        transition: all 0.3s ease 0s;
+    }
+    .navbar__links li a:hover{
+        color: #0088a9;
+    }
+.logo{
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo:hover{
+    color: #0088a9;
+}
+
+main{
+    flex: flex;
+}
+div{
+    background-color:rgba(103, 112,119, 1);
+    border: 3px solid gray;
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+    width: 900px;
+    height: 400px;
+
+}
+.projects{
+    list-style: none;
+}
+main ul li{
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+main ul li a:hover{
+    color: #0088a9;
+}
