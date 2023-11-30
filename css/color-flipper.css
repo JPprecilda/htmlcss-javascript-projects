@@ -47,7 +47,7 @@ main{
     flex: flex;
 }
 div{
-    background-color:rgba(103, 112,119, 1);
+    /* background-color:rgba(103, 112,119, 1); */
     border: 3px solid gray;
     margin: auto;
     margin-top: 2em;
@@ -90,7 +90,7 @@ Button:hover{
 }
 h2{
     font-size: 25px;
-    background-color: rgba(26, 25, 27, 1);
+    background-color: rgba(26, 25, 27, 0.5);
     font-family: 'Noto Sans Display', sans-serif;
     color: white;
     border: none;
