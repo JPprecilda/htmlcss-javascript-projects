@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noto+Sans+Display&family=Poppins&display=swap');
-
 main{
     flex: flex;
 }
@@ -16,13 +15,16 @@ div{
 }
 
 .display{
-    margin-top: 140px;
+    margin-top: 20px;
 }
+    .display button:nth-child(3){
+        margin: 0 20    px;
+    }
 .projects{
     list-style: none;
     
 }
-    .projects li:nth-child(1){
+    .projects li:nth-child(2){
         background-color: rgba(26, 25, 27, 0.5);
         padding: 10px;
         border-radius: 10px;
@@ -39,25 +41,22 @@ main ul li a:hover{
 Button{
     border: none;
     border-radius: 25px;
-    padding: 10px 10px;
+    padding: 10px 30px;
     background-color: rgba(0, 136, 169, 1);
     font-size: 25px;
+    margin: 0 10px;
 }
 Button:hover{
     background-color: rgba(0, 136, 169, 0.5);
     cursor: pointer;
 }
 h2{
-    font-size: 25px;
-    background-color: rgba(26, 25, 27, 0.5);
+    font-size: 150px;
+    /* background-color: rgba(26, 25, 27, 0.5); */
     font-family: 'Noto Sans Display', sans-serif;
-    color: white;
+    color: rgba(232, 232, 232, 0.8);
     border: none;
-    padding: 20px 40px ;
     margin-bottom: 10px;
     border-radius: 30px;
-    width: 70%;
-    margin: 20px auto;
-    letter-spacing: 0.5cap;
-    text-align: left;
+    text-align: center;
 }

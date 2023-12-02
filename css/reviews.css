@@ -5,7 +5,7 @@
 main{
     flex: flex;
 }
-div{
+.display-container{
     /* background-color:rgba(103, 112,119, 1); */
     border: 3px solid gray;
     margin: auto;
@@ -16,13 +16,53 @@ div{
 }
 
 .display{
-    margin-top: 140px;
+    margin-top: 20px;
+    background-color: rgba(232, 232, 232, 0.8);
+    width: 50%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
+img{
+    height: 100px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.profile-container{
+    padding: 10px;
+}
+    .display .underline{
+        width: 150px;
+        border: 1px solid rgba(26, 25, 27, 1);
+        margin: 10px auto 10px;
+    }
+    .display h3{
+        font-family: 'Poppins', sans-serif;
+    }
+    .display #description{
+        font-size: small;
+        text-align: justify;
+        padding: 10px 30px;
+    }
+    .display #title{
+        font-family: 'Noto Sans Display', sans-serif;
+        letter-spacing: 0.3cap;
+    }
+    .display #name{
+        letter-spacing: 0.1cap;
+    }
+    .display h3, p{
+        color: rgba(26, 25, 27, 1);
+    }
+    
 .projects{
     list-style: none;
     
 }
-    .projects li:nth-child(1){
+    .projects li:nth-child(3){
         background-color: rgba(26, 25, 27, 0.5);
         padding: 10px;
         border-radius: 10px;
@@ -39,25 +79,20 @@ main ul li a:hover{
 Button{
     border: none;
     border-radius: 25px;
-    padding: 10px 10px;
     background-color: rgba(0, 136, 169, 1);
-    font-size: 25px;
+    margin: 0 10px;
 }
 Button:hover{
     background-color: rgba(0, 136, 169, 0.5);
     cursor: pointer;
 }
 h2{
-    font-size: 25px;
-    background-color: rgba(26, 25, 27, 0.5);
+    font-size: 150px;
+    /* background-color: rgba(26, 25, 27, 0.5); */
     font-family: 'Noto Sans Display', sans-serif;
     color: white;
     border: none;
-    padding: 20px 40px ;
     margin-bottom: 10px;
     border-radius: 30px;
-    width: 70%;
-    margin: 20px auto;
-    letter-spacing: 0.5cap;
-    text-align: left;
+    text-align: center;
 }
